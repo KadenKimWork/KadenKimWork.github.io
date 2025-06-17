@@ -1,0 +1,144 @@
+#crew_head {
+
+    position: absolute;
+    top: 10px;
+    font-family: arial;
+    background-color: rgb(114, 194, 194);
+    width: 280px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#intro {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#buttons {
+    position: absolute;
+    top: 140px;
+}
+
+#crew_bio_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+    opacity: 0;
+}
+
+#buttons:hover {
+    cursor: pointer;
+}
+
+#main_space {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%)
+
+
+}
+#members_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+}
+
+#achievements_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+}
+
+#media_button {
+    color: black;
+    font-family: Arial;
+    background-color: rgb(162, 229, 246);
+
+}
+
+#crew_bio {
+    font-size: 50%;
+}
+
+#member_list {
+    font-size: 30px;
+    font-family: arial;
+}
+
+#cozy_name:hover {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#found_name:hover {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#viper_name:hover {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#main_space {
+    font-family: Arial;
+    font-size: 50px;
+}
+
+#taco_amigo_head {
+    font-size: 40px;
+}
+#taco_amigo {
+    font-size: 20px;
+}
+
+#china_un {
+    font-size: 20px;
+}
+
+#holi_hai {
+    font-size: 20px;
+}
+
+#crew_photo {
+    position: relative;
+    z-index: 1;
+}
+
+
+#cozy_photo {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: -48px;
+}
+
+#crew_photo:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+#done_button {
+    position: absolute;
+    top: (main_space + 10000px);
+    background-color: rgb(162, 229, 246);
+    height: 50px;
+    width: 115px;
+    font-size: 33px;
+    left: 50%;
+    transform: translateX(-50%)
+
+}
+#done_button:hover {
+    cursor: pointer;
+    background-color: rgb(175, 118, 56);
+    height: 50px;
+    width: 115px;
+    font-size: 33px;
+}
+
+
