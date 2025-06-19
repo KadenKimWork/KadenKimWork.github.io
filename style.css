@@ -16,9 +16,13 @@
     transform: translateX(-50%)
 }
 
+.menu_button:hover {
+    cursor: pointer;
+
+}
 #buttons {
     position: absolute;
-    top: 140px;
+    top: 150px;
 }
 
 #crew_bio_button {
